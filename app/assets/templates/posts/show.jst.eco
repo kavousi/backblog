@@ -1,0 +1,4 @@
+<h1><%= @post.escape('title') %></h1>
+<p><%= @post.escape('content') %></p>
+<a href='#' id="edit_post">Edit Post</a>
+<a href='#' id="delete_post">Delete Post</a>

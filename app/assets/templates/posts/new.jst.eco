@@ -1,0 +1,5 @@
+<form id="new_post">
+  <input type="text" name="title" id="new_post_title" placeholder="Post Title">
+  <textarea placeholder="Post content goes here." id="new_post_content" name="content" />
+  <input type="submit" value="Post">
+</form>
