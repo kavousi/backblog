@@ -1,1 +1,5 @@
-<%= @post.escape('title') %>
+<h4><%= @post.escape('title') %></h4>
+<blockquote>
+<p><%= @post.escape('content') %></p>
+<small><cite>Posted at <%= new Date(@post.get('created_at')).toDateString() %></cite></small>
+</blockquote>
